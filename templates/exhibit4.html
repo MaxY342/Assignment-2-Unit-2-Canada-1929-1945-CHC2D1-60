@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+
+{% block css%}
+
+    <link href="/static/exhibit.css" rel="stylesheet">
+
+{% endblock%}
+
+{% block title %}
+
+    exhibit4
+
+{% endblock %}
+
+{% block breadcrumb %}
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/exhibit1">Exhibit #1</a></li>
+            <li class="breadcrumb-item"><a href="/exhibit2">Exhibit #2</a></li>
+            <li class="breadcrumb-item"><a href="/exhibit3">Exhibit #3</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Exhibit #4</li>
+        </ol>
+    </nav>
+
+{% endblock %}
+
+{% block header %}
+
+    Exhibit #4
+
+{% endblock%}
+
+{% block main %}
+
+    <div class="block">
+        <div class="text-block">
+            <div class="text">
+                <h2>Exhibit 4: The Holocaust</h2>
+                <img src="static/images/The holocaust.webp" alt="The holocaust" width="444" height="300">
+                <hr>
+                <p>
+                    Throughout and even before the start of WW2, Hitler had shown his immense distaste towards the Jews, blaming them for Germany’s failures in WW1 and for the terrible conditions that they were going through during the great depression. This is shown through his memoir named “Mein Kampf” where he expresses his hatred towards Jews and his prediction of “the extermination of the Jewish race in Germany.” He also expressed his idea of the superiority of the “pure” German race. As such, when Hitler rose to power in 1934, Jews who were living in Germany faced extreme persecution and stigmatization where normal life became impossible as any Jews who could leave desperately did while any who remained were in a constant state of uncertainty and fear. Hitler then moved on to other European countries invading Poland and forcefully transporting tens of thousands of Polish Jews into ghettos where living conditions were horrid. Throughout the summer and spring of 1940, the German army further expanded Hitler’s empire in Europe, conquering Denmark, Norway, the Netherlands, Belgium, Luxembourg, and France. All over the continent, Jewish people were transported to Polish ghettos where they were eventually tricked into boarding trains that led them to the many concentration camps most notably Auschwitz, near Krakow, Poland. Inside these camps, the Nazis were previously experimenting with various mass killing methods including the gassing and death of 500 Soviet prisoners of war using the pesticide Zyklon-B in which they placed a massive order for the impending holocaust. By the beginning of late 1941, Jews were transported by bulk to these concentration camps which would continue all the way until the end of the Second World War in 1945. Within these concentration camps, living conditions were even worse. People were crammed together with little to no food given to them to the point that they became living skeletons causing many to suffer and die of disease and malnourishment. Additionally, many atrocities were committed towards the Jews inside these camps. Mass gassings were enacted slaughtering thousands of Jews at a time while many Jews were also tested on, being used as human lab rats for scientific experiments that were often deadly and dematerializing. They were also forced into labour. Additionally, there were so many Jews piled up that they would carry out mass graves or burn the dead bodies in large crematoria and open-air pits especially in the polish ghettos where cremation tools were not available. In the end, the Jews were finally freed during 1945 when WW2 was coming to a close as Hitler committed suicide, the germans surrendered, and the Nuremberg Trials of 1945-1956 were held bringing the horrific atrocities committed to light and conducting punishments for the Nazi’s apart of and conducting the Holocaust. However, the damage was already done with approximately 6 million Jew’s that were brutally murdered in the end.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <h2 class="sub_header">Extra Images</h2>
+        <div class="images">
+            <div class="image_set">
+            <img src="static/images/Polish ghettos.webp" alt="Polish ghettos" width="427" height="270">
+            <p class="image_description">The polish ghettoes that the Jews were stored in</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Holocaust trains.jpg" alt="Holocaust trains" width="400" height="280">
+                <p class="image_description">The trains that were used to transport Jews to the concentration camps</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Holocaust gas chamber.webp" alt="Gas chamber" width="375" height="277">
+                <p class="image_description">Gas chambers that were used to mass murder the Jews</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Holocaust malnourishment.jpg" alt="Holocaust malnourishment" width="375" height="277">
+                <p class="image_description">The Jews were starved until they became skeletons</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock%}

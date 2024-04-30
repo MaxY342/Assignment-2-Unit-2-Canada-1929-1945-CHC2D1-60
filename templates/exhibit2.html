@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block css%}
+
+    <link href="/static/exhibit.css" rel="stylesheet">
+
+{% endblock%}
+
+{% block title %}
+
+    exhibit2
+
+{% endblock %}
+
+{% block breadcrumb %}
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/exhibit1">Exhibit #1</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Exhibit #2</li>
+        </ol>
+    </nav>
+
+{% endblock %}
+
+{% block header %}
+
+    Exhibit #2
+
+{% endblock%}
+
+{% block main %}
+    <div class="block">
+        <div class="text-block">
+            <div class="text">
+                <h2>Exhibit 2: Effect of the Great Depression on Agriculture</h2>
+                <img src="static/images/Great depression agriculture.png" alt="Agriculture during the great depression" width="444" height="300">
+                <hr>
+                <p>
+                    During the great depression, Farmers were arguably hit the hardest. Farmers in the Prairies had to experience a plethora of misfortunes including the immense drop in the price of wheat. Due to the Great Depression, the price of wheat fell to below the price of seed stifling the prairies with poverty and unemployment. In addition to that, a 10-year period of drought and dust storms struck the land turning it to dust and sweeping away all the rich soil and crops of the farmers living there. Unable to sustain themselves many were forced to move into the cities to try to find new jobs but because of the great depression, there weren’t often many jobs that had positions available leading to a constant unemployment rate above 10% between 1930 and 1940 and decreasing the farm incomes in the prairies from $363 million in 1928 to -$10.7 million in 1931.
+    Those who decided to stick it through on their farms experienced a hellish nightmare where they would watch the crops they worked hard to grow the day before get entirely blown away leaving behind a vast field of dust. To make matters worse, farmers had to deal with grasshopper infestation and the overgrowth of an invasive species called the Russian thistle. Grasshoppers would clog radiators and make roads slippery and would permeate into chicken and turkey food supply causing their meat and eggs to taste foul. The drought-resistant Russian thistle would also grow everywhere piling up against fences and barns. This led to the dissipation of hay to feed starving livestock causing the price of cattle to drop to 3.5 to four cents per animal. However, there came hope as Lawrence Eldred Kirk who was an agriculturist at Bracebridge, Ont made a groundbreaking discovery. He is famous for the breeding and introduction of the fairway crested wheatgrass which saved many farmers in the prairies. This type of wheat had long roots extending deep into the soil searching for moisture and preventing it from getting blown away by the dust storms. They were also resistant to rough conditions like droughts making it the perfect solution for the farm conditions during the depression. To this day, rangeland is still reseeded mostly with fairway crested wheatgrass.
+
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <h2 class="sub_header">Extra Images</h2>
+        <div class="images">
+            <div class="image_set">
+            <img src="static/images/Dust storm.webp" alt="Dust storm" width="420" height="280">
+            <p class="image_description">Dust storm</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Grasshopper plague.jpeg" alt="Grasshopper plague" width="400" height="300">
+                <p class="image_description">Grasshopper plague</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Russian thistle.jpg" alt="Russian thistle" width="410" height="280">
+                <p class="image_description">Russian thistle</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Faraway wheatgrass.jpg" alt="Faraway wheatgrass" width="410" height="280">
+                <p class="image_description">Faraway wheatgrass</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock%}

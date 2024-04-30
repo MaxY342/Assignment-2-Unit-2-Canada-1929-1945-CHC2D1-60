@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block css%}
+
+    <link href="/static/exhibit.css" rel="stylesheet">
+
+{% endblock%}
+
+{% block title %}
+
+    exhibit1
+
+{% endblock %}
+
+{% block breadcrumb %}
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Exhibit #1</li>
+        </ol>
+    </nav>
+
+{% endblock %}
+
+{% block header %}
+
+    Exhibit #1
+
+{% endblock%}
+
+{% block main %}
+
+    <div class="block">
+        <div class="text-block">
+            <div class="text">
+                <h2>Exhibit 1: Prime Minister R.B. Bennett</h2>
+                <img src="static/images/R.B. Bennett.jpg" alt="R.B. Bennett" width="250" height="300">
+                <hr>
+                <p>
+                    Richard Bedford Bennett was a lawyer, businessman, politician, philanthropist, and eventual prime minister of Canada during the great depression between 7 August 1930 to 23 October 1935. He is mainly remembered for his controversial response to the great depression. He was a part of the conservative party and was elected as prime minister after he promised to create jobs, help the millions of unemployed Canadians and blast Canada back into world markets whereas William Lyon Mackenzie King the previous prime minister from the Liberal Party thought the market could fix itself, and failed to recognize the severity of the depression. Bennett tried a variety of measures in an attempt to rejuvenate the Canadian economy but it all came to no avail as under Bennett’s leadership, the conditions only worsened. As such at the peak of the depression in 1933, he was deemed indecisive and ineffective becoming the target of endless jokes including the “Bennett Buggies” which was the name given to cars that were towed by horses when their owners could not afford gasoline. However, Bennett did try very hard to help Canadians, seeing how throughout it all, he was frequently moved by letters from Canadians sharing their difficult circumstances and would always reply with a message from himself, frequently including some cash in the envelopes. Another notable thing that Bennett did was introduce relief camps that were made to address the thousands of unemployed men traversing through the roofs of trains to try to find jobs elsewhere in Canada. These camps provided young men with food and housing with the expectation that they would be performing manual labour. Nonetheless, workers were only 20 cents per day for a 44-hour workweek which was widely seen as inadequate. Intrinsically, in the spring of 1935, strikes at many of these camps turned into a month-long protest in Vancouver. On June 3, around 1,000 men departed British Columbia to negotiate with Bennett, who believed the Workers' Unity League was a communist threat. Despite the leaders' decision to stop the movement, the RCMP advanced on the trekkers in Regina. The ensuing riot caused violence and resulted in many casualties including the death of a police officer and protester. Eventually, in 1935 Bennett introduced the Bennett's New Deal which introduced many new social programs like unemployment insurance and minimum wage but it was viewed as too little too late leading to the Liberals winning the re-election in 1935 though they also did little to improve the Canadian economy as well.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <h2 class="sub_header">Extra Images</h2>
+        <div class="images">
+            <div class="image_set">
+            <img src="static/images/bennett-buggy.jpg" alt="Bennett Buggy">
+            <p class="image_description">Bennett Buggy</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Bennet letter.jpg" alt="Letter to Bennett" width="400" height="300">
+                <p class="image_description">A letter sent to R.B. Bennett that he he responded to</p>
+            </div>
+            <div class="image_set">
+                <img src="static/images/Relief camps.jpg" alt="Relief camp" width="400" height="300">
+                <p class="image_description">Relief camp residents working on a highway</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock%}

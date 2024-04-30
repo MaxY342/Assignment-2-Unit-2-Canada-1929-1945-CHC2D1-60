@@ -1,0 +1,130 @@
+body {
+    height: 2000px;
+}
+
+.text {
+    color: grey;
+    padding: 10rem;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+.text:hover, .text:hover h2 {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+img {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+    margin-top: 30px;
+    margin-bottom: 69px;
+}
+
+.sub_header {
+    color: grey;
+    margin-bottom: 5rem;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: top;
+}
+
+.image_set {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+    /*border: 3px solid green;*/
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.image_set img{
+    margin-bottom: -25px;
+}
+
+.images:hover p {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.image_description{
+    width: 400px;
+    color: grey;
+    text-align: center;
+    transition: color 0.5s ease;
+    text-indent: 0px;
+}
+
+p {
+    padding: 5px 0px;
+    text-indent: 40px;
+    word-spacing: 2.5px;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+.sources {
+    text-align: left;
+    text-indent: 0px;
+}
+
+hr {
+    color: white;
+    height: 3px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block:hover h2 {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.block:hover img {
+    filter: grayscale(0%);
+    transition: filter 0.5s ease;
+}
+
+.imageDiscription {
+    padding: 20px;
+}
+
+@media (max-width: 740px) {
+    .block {
+        position: relative;
+    }
+
+    p {
+        margin-top: 10px;
+        text-indent: 0;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        filter: grayscale(0%);
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+    }
+
+    .text {
+        color: white;
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+}
